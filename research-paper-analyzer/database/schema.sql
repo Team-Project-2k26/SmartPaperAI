@@ -1,0 +1,1 @@
+-- Database schema placeholder for research paper analyzer.
