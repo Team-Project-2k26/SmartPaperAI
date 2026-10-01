@@ -1,13 +1,52 @@
+# ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.log
+
+# ── Virtual environments ──────────────────────────────────────────────────────
 .venv/
 venv/
-node_modules/
+env/
+ENV/
+
+# ── HuggingFace model cache ───────────────────────────────────────────────────
+.cache/
+*.safetensors
+
+# ── Uploads ───────────────────────────────────────────────────────────────────
+uploads/*.pdf
+uploads/*.PDF
+
+# ── Database ──────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Environment ───────────────────────────────────────────────────────────────
 .env
-*.log
-uploads/*
-!uploads/.gitkeep
-models/*
-!models/qa/
-!models/summarization/
-.ipynb_checkpoints/
+.env.local
+
+# ── Node.js ───────────────────────────────────────────────────────────────────
+node_modules/
+dist/
+frontend/dist/
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

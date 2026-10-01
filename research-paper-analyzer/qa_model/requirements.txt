@@ -1,3 +1,10 @@
+torch
 transformers
 datasets
-torch
+evaluate
+numpy
+pandas
+scikit-learn
+matplotlib
+jupyter
+ipykernel
