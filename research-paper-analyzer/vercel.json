@@ -13,37 +13,7 @@
   },
   "rewrites": [
     {
-      "source": "/upload",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/analyze",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/chat",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/health",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/docs",
-      "destination": {
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/redoc",
+      "source": "/api/:path*",
       "destination": {
         "service": "backend"
       }
